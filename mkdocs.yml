@@ -1,0 +1,33 @@
+# Project information
+site_name: "AppSTARTer"
+site_description: "AppSTARTer helps you get started with home server apps running natively!"
+site_author: "GhostWriters"
+site_url: "https://appstarter.net"
+
+# Repository
+repo_name: "GhostWriters/AppSTARTer"
+repo_url: "https://github.com/GhostWriters/AppSTARTer"
+edit_uri: "https://github.com/GhostWritersAppSTARTer.net/edit/master/docs/"
+
+# Copyright
+copyright: "Copyright &copy; 2018 - 2019 GhostWriters"
+
+# Configuration
+theme:
+  name: "material"
+  language: "en"
+  palette:
+    primary: "blue grey"
+    accent: "indigo"
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
+  logo: "img/icon.png"
+  favicon: "img/favicon.ico"
+
+# Navigation
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Basics:
+      - Available Applications: basics/available-apps.md

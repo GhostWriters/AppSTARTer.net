@@ -1,2 +1,0 @@
-# appstarter.net
-AppSTARTer documentation
