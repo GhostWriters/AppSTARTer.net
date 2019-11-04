@@ -57,4 +57,4 @@ This project exists thanks to all the people who contribute!
 
 ## Special Thanks
 
-In addition to all those mentioned on [[DockSTARTer](https://dockstarter.com/)] we would also like to thank [[GhostWriters](https://github.com/GhostWriters/)] for being willing to partner and work with us to create AppSTARTer!
+- [[DockSTARTer](https://dockstarter.com/)] that served as the baseline for this project.
