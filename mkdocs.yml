@@ -31,3 +31,4 @@ nav:
   - Introduction: introduction.md
   - Basics:
       - Available Applications: basics/available-apps.md
+      - Uninstalling Applications: basics/uninstalling-apps.md
