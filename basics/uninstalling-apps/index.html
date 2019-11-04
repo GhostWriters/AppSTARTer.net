@@ -13,7 +13,7 @@
         <meta name="description" content="AppSTARTer helps you get started with home server apps running natively!">
       
       
-        <link rel="canonical" href="https://appstarter.net/basics/available-apps/">
+        <link rel="canonical" href="https://appstarter.net/basics/uninstalling-apps/">
       
       
         <meta name="author" content="GhostWriters">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Available Applications - AppSTARTer</title>
+        <title>Uninstalling Applications - AppSTARTer</title>
       
     
     
@@ -91,7 +91,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#available-apps" tabindex="1" class="md-skip">
+      <a href="#uninstalling-apps" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -117,7 +117,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Available Applications
+                Uninstalling Applications
               
             </span>
           
@@ -271,6 +271,18 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../available-apps/" title="Available Applications" class="md-nav__link">
+      Available Applications
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -281,22 +293,10 @@
       
     
     
-    <a href="./" title="Available Applications" class="md-nav__link md-nav__link--active">
-      Available Applications
-    </a>
-    
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../uninstalling-apps/" title="Uninstalling Applications" class="md-nav__link">
+    <a href="./" title="Uninstalling Applications" class="md-nav__link md-nav__link--active">
       Uninstalling Applications
     </a>
+    
   </li>
 
         
@@ -332,13 +332,13 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/GhostWritersAppSTARTer.net/edit/master/docs/basics/available-apps.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/GhostWritersAppSTARTer.net/edit/master/docs/basics/uninstalling-apps.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="available-apps">Available Apps</h1>
-<p>Please browse the repo here to see which apps are available: <a href="https://github.com/GhostWriters/AppSTARTer/tree/master/.apps">https://github.com/GhostWriters/AppSTARTer/tree/master/.apps</a></p>
-<p>If an folders exists for both apps as well as app dependencies. If a folder exists for an app then it is available for install.</p>
-<p>You can see xdescriptions of each app in the GUI or in the yml file for each app in the repository.</p>
+                <h1 id="uninstalling-apps">Uninstalling Apps</h1>
+<p>You can uninstall any apps that have been installed via AppSTARTer by doing one of the following:</p>
+<p>1) Deselecting the application(s) via the GUI when running <code>apps</code>. Then answering "Yes" when prompted to uninstall disabled apps. It will then ask you if you want to uninstall the app for each one that has been deselected
+2) Running <code>apps --uninstall=&lt;app_name&gt;</code> where <code>&lt;app_name&gt;</code> is the name of the app you want to uninstall. Example: <code>apps --uninstall=sonarr</code></p>
                 
                   
                 
@@ -359,7 +359,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../introduction/" title="Introduction" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../available-apps/" title="Available Applications" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -368,25 +368,11 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Introduction
+                Available Applications
               </span>
             </div>
           </a>
         
-        
-          <a href="../uninstalling-apps/" title="Uninstalling Applications" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Uninstalling Applications
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
         
       </nav>
     </div>
